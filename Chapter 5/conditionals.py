@@ -60,9 +60,26 @@ if answer_0 and answer_1 < 26:
     print(" You are correct!")
 
 
-
-
 #5. Test wether an item is in a list
 
-# 6. Test wether an iteam is not in a list
+favorite_animals = ['cat', 'dog', 'duck', 'chicken']
+print(favorite_animals)
+if "cat" in favorite_animals:
+    print("Yes")
+
+numbers= ['1','2','3','4','5']
+if "1" in numbers:
+    print("True")
+
+# 6. Test wether an item is not in a list
+
+fruits =['apple','watermelon', 'orange','grapes']
+if "starfruit" not in fruits:
+    print("That is not an option")
+
+colors = ['blue','pink','red','green']
+if "yellow" not in fruits:
+    print("Try again")
+
+
 
